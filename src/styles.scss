@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+// No need to run PurgeCSS on the utilities because its likely you will need them all
+@tailwind utilities;
